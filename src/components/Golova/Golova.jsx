@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import Logo from './../../assets/img/Logo.png';
 import './../../i18n'
 import { useTranslation } from "react-i18next";
-
+import havchik from './../../assets/img/ovqat.png';
 
 const Golova = () => {
 
@@ -71,8 +71,8 @@ const Golova = () => {
                 </div>
               </div>
 
-              <div className='w-[497px] h-[497px] bg-gray-400 rounded-[50%] mt-[240px]'></div>
 
+                  <img src={havchik} className='mt-[122px]' alt="" />
             </div>
         </header>
     </>

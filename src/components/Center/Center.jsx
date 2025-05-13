@@ -79,7 +79,7 @@ const Center = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"  style={{ background: "linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%)"}} className='w-[100%] h-[518px] text-center content-center'>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='bg-gradient-to-b from-[#FFCE67] to-[#DEDCA00] w-[100%] h-[518px] text-center content-center'>
                 <h2 className='text-[#F17228] text-[43px] font-bold mb-[72px]'>{t("docTitle")}</h2>
                 <div className='w-[1324px] h-[239px] flex justify-between items-center mx-auto'>
                     <div className='text-center w-[307px] h-[239px]'>
